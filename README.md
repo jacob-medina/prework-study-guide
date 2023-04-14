@@ -2,7 +2,9 @@
 
 ## Description
 
-This website was created to refresh on the basics of **HTML, CSS, JavaScript, and Git**. The Prework Study Guide helps new bootcamp students study web development topics like HTML, CSS, Git, and JavaScript. For students who don't know where to start, the console prints out a random subject for them to study. Through this project, I mainly learned how to develop a project properly using GitHub.
+This website was created to refresh on the basics of **HTML, CSS, JavaScript, and Git**. The Prework Study Guide helps new bootcamp students study web development topics like HTML, CSS, Git, and JavaScript. For students who don't know where to start, the console prints out a random subject for them to study. Through this project, I mainly learned how to develop a project properly using GitHub.  
+
+![live website preview](assets/images/Prework%20Study%20Guide%20Preview.png)
 
 ## Installation
 
@@ -10,7 +12,8 @@ N/A
 
 ## Usage
 
-You open the [live website here.]()  
+You can open the [live website here.](jacob-medina.github.io/prework-study-guide/)  
+
 To use the Prework Study Guide, you can review the labeled sections on the live site, including the following topics:
 - HTML
 - CSS
