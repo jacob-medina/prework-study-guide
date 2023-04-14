@@ -1,14 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+3:wght@400;800&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">    <title>Prework Study Guide</title>
+  
+    <link rel="stylesheet" href="./assets/style.css">
+
   </head>
+
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
@@ -26,7 +33,7 @@
 
             <li id="html-section-html">
 
-              <h3>HTML</h3>
+              <h3>Large Section Elements</h3>
 
               <ul>
                 <li> <span class="code"><strong>&lt;head&gt;</strong> -> </span>contains metadata the browser uses</li>
@@ -169,9 +176,62 @@
 
         <div class="card-container">
 
-          <ul>
+          <ul style="margin-top: 30px">
 
-            <li>CSS notes pending...</li>
+            <li><span class="code"><strong>&lt;style&gt;</strong> -> </span>contains internal CSS style sheet (for current HTML page only)</li>
+            
+            <li>
+              <span class="code"><strong>&lt;link rel=“stylesheet” href=“styles.css”&gt;</strong> -> </span>link external CSS style sheet
+            
+              <ul>
+                <li>
+                  <em>Attributes:</em>
+
+                  <ul class="attributes-ul">
+                    <li><span class="code"><strong>rel</strong> -> </span>specifies the relationship of the resource to the HTML doc</li>
+                    <li><span class="code"><strong>href</strong> -> </span>the URL of the resource (can be a file path relative to HTML doc)</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Rule:</strong> apply values to certain properties of a selected element type
+              
+              <br/>
+
+              <img src="./assets/css_rule.png" alt="CSS rule diagram" width="400px">
+            </li>
+
+            <li>
+
+              <strong>Box Model:</strong> every HTML element is a box with the layers: content, padding, border, and margin
+
+              <ul>
+                <li><strong>Content box:</strong> the space taken up by content (text, image, etc.)</li>
+                <li><strong>Padding:</strong> the space around the content box, still within element (maintains background)</li>
+                <li><strong>Border:</strong> the space around the element</li>
+                <li><strong>Margin:</strong> the space outside of the element, a buffer (doesn’t interact with other margins)</li>
+
+              </ul>
+
+              <br/>
+
+              <img src="./assets/box_model.png" alt="box model diagram" width="400px">
+
+            </li>
+
+            <li><span class="code"><strong>*</strong> -> </span>wild card symbol, selects all elements on the page</li>
+
+            <li><strong>Class attribute:</strong> shares a CSS rule with all HTML elements having a particular class name</li>
+
+            <li>
+              <strong>CSS shorthand:</strong> apply multiple values to multiple properties in one declaration in a CSS rule
+            
+              <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">Shorthand properties resource</a></li>
+              </ul>
+            </li>
 
           </ul>
 

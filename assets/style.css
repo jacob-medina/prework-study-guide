@@ -63,20 +63,17 @@ p {
 
 strong {
     color: #EA5455;
+    font-weight: bold;
 }
 
-.code {
-    font-family: 'Source Code Pro';
-}
-
-.code strong {
-    font-weight: 800;
+.code,
+.code > strong {
+    font-family: 'Source Code Pro' !important;
 }
 
 .attributes-ul {
     font-size: 16px;
 }
-
 
 .card {
     width: 80%;
