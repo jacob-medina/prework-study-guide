@@ -1,11 +1,11 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
-var randomTopic = topics[Math.floor(Math.random() * topics.length)]
+var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 
 function listTopics() {
     for (var i = 0; i < topics.length; i++) {
         console.log((i+1) + ") " + topics[i]);
-       }
+    }
 }
 
 
@@ -31,12 +31,11 @@ function selectTopic(topic) {
     }
 }
 
-console.log("Here are the topics I learned through Prework:")
-listTopics()
+console.log("Here are the topics I learned through Prework:");
+listTopics();
 
-console.log("")
+console.log("");
 
-console.log("Which topic should we study?")
-console.log("----------------")
-selectTopic(randomTopic)
-console.log("----------------")
+console.log("Which topic should we study?");
+console.log("...");
+selectTopic(randomTopic);
